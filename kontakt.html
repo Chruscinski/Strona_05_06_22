@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Podróże</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+          main {
+            text-align: center;
+          
+          }
+          article {  
+            margin: 5vh auto;
+            
+            width: 40vw;
+            text-align: left;
+          }
+
+         
+
+          form {
+              
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+              color: black;
+              line-height: 300%;
+          }
+          label {
+              display: flex;
+              width: 100%;
+              line-height: 200%;
+              gap: 20px;
+          }
+
+          input {
+              flex: 2;
+          }
+
+          textarea{
+              width: 100%;
+          }
+
+        </style>
+    </head>
+    <body
+        style="
+            background-color: rgb(224, 224, 224);
+            display: flex;
+            flex-direction: column;
+        ">
+        <nav>
+            <a href="index.html" class="menu-button">Strona główna</a>
+            
+            <a href="edycja.html" class="menu-button now">Kontakt</a>
+        </nav>
+        <div class="image-cover">
+            <span>KONTAKT</span>
+        </div>
+
+        <main>
+            <article>
+                <h2>O mnie</h2>
+                <p>Od 5 lat pogłębiam tajniki fotografii robiąc zdjecia, wszędzie gdzie się pojawię, od imprez okolicznościowych, przez sesje, po zdjęcia podczas podróży. 
+                <br><br>Jeśli chcesz się ze mną skontaktować wypełnij poniższy formularz:</p>
+                <form>
+                    <label>Imię i nazwisko <input type="text" name="surname" placeholder="Wpisz swoje imię i nazwisko..."></label>
+                    <label>E-mail <input type="email" name="mail" placeholder="Podaj swój mail..."></label>
+                    <textarea name="content" placeholder="Napisz pytanie..." rows="6"></textarea>
+                
+                </form>
+            
+            </article>
+        </main>
+
+        <footer style="margin-top: auto">
+            <span>Jan Chruściński &copy; 2022</span>
+        </footer>
+    </body>
+</html>

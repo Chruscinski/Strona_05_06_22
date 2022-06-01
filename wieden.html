@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podróże</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(224, 224, 224);">
+    <nav>
+        <a href="index.html" class="menu-button">Strona główna</a>
+        <a href="hiszpania.html" class="menu-button">Hiszpania</a>
+        <a href="wieden.html" class="menu-button now">Wiedeń</a>
+        <a href="paryz.html" class="menu-button">Paryż</a>
+    </nav>
+    <div class="image-cover">
+        <span>WIEDEŃ</span>
+    </div>
+    
+    <main>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="img/wieden/1.jpg" style="width:100%">
+              <div class="text">Belweder</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="img/wieden/2.jpg" style="width:100%">
+              <div class="text">Konny pomnik Karola I Habsburga</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img/wieden/3.jpg" style="width:100%">
+              <div class="text">Opera Wiedeńska</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+    </main>
+
+    <footer>
+        <span>Jan Chruściński &copy; 2022</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
