@@ -34,7 +34,7 @@ nav {
 
 .now {
   background-color: rgb(55, 55, 55);
-  border-color: rgb(55, 55, 55);
+  
 }
 
 .image-cover {
@@ -106,12 +106,6 @@ h3 {
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
-}
-
-@media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-  }
 }
 
 .slideshow-container {
